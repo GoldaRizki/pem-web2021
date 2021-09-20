@@ -44,4 +44,23 @@ h1{
     height: 100px;
     margin-top: 100px;
     background-color: black;
+}.tombol {
+    background-color: #43829d; 
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block; 
+    font-size: 15px;
+    margin: 4px auto;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 70px;
+    transition: 0.4s;
+    font-family: 'lucida console';
+    
+}.tombol:hover{
+    background-color: #235165;
+    
 }
