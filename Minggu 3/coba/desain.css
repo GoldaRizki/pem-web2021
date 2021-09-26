@@ -1,0 +1,23 @@
+body{
+    background-color:  #4d94ff;
+    margin: 0;
+}.baris::after{
+    
+        content: "";
+        clear: both;
+        display: table;
+    
+}.kotak{
+    width: 50%;
+    height: auto;
+    /* background-color: rgb(26, 52, 100); */
+    margin: 20px auto;
+}video{
+    width: 100%;
+    height: auto;
+   
+}audio{
+
+    width: 100%;
+    
+}
