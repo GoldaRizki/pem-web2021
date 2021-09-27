@@ -12,7 +12,7 @@ body{
     padding: 50px;
     font-weight: bold;
  
-}.kiri, .kanan{
+}.kiri, .kanan, .kanan-bwh{
     width: 50%;
     height: 600px;
     float: left;
@@ -52,4 +52,28 @@ margin-bottom: 30px;
 }.a{
     background-color: #64C9CF;
     
+}.judul-cv-1{
+    font-family: 'fira sans';
+    text-align: center;
+    font-size: 58px;
+}.kanan-bwh{
+    background-color: #FDE49C;
+    font-family: fira sans;
+    
+    box-sizing: border-box;
+    padding: 20px;
+    font-weight: bold;
+ 
+}
+.tabel{
+    margin-top: 100px;
+    border-collapse: collapse;
+    width: 100%;
+} .tabel tr:nth-child(even){background-color: #f2f2f2}
+.tabel td{
+    text-align: left;
+    padding: 20px;
+}.tabel tr:hover{
+    cursor: pointer;
+    padding: 5px;
 }
