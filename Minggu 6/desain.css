@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+}
+@font-face {
+    font-family: roboto;
+    src: url("Roboto-Regular.ttf");
+}
+header{
+    position: absolute;
+width: 1472px;
+height: 680px;
+left: 0px;
+top: 0px;
+
+background: url(BG_audiens.jpg);
+}.judul{
+    position: absolute;
+width: 936px;
+height: 104px;
+left: 268px;
+top: 281px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 96px;
+line-height: 112px;
+text-align: center;
+letter-spacing: 0.21em;
+
+color: #FFFFFF;
+
+}.beranda{
+position: absolute;
+width: 320px;
+height: 89px;
+left: 64px;
+top: 37px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 84px;
+
+color: #FFFFFF;
+
+}.login{
+    position: absolute;
+width: 135px;
+height: 59px;
+left: 1046px;
+top: 57px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+
+color: #FFFFFF;
+}.daftar{
+    position: absolute;
+    width: 199px;
+    height: 56px;
+    left: 1204px;
+    top: 60px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    
+    color: #FFFFFF;
+    
+}.garis{
+position: absolute;
+width: 1472px;
+height: 0px;
+left: 0px;
+top: 670px;
+box-sizing: border-box;
+
+border: 8px solid #19A1AA;
+}section{
+    /* Frame 1 */
+
+
+position: absolute;
+width: 1192px;
+height: 372px;
+
+
+background: #FFFFFF;
+}
+
+.aa{
+left: 140px;
+top: 758px;
+}.bb{
+left: 140px;
+top: 1178px;
+
+}.cc{
+left: 140px;
+top: 1640px;
+}
+
+.aa .gambar, .bb .gambar{
+    position: absolute;
+width: 374px;
+height: 294px;
+left: 61px;
+top: 39px;
+
+
+border: 7px solid #19A1AA;
+box-sizing: border-box;
+}section .jdl{
+position: absolute;
+width: 480px;
+height: 80px;
+left: 495px;
+top: 61px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+
+}section p{
+    position: absolute;
+width: 562px;
+height: 171px;
+left: 495px;
+top: 153px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 27px;
+line-height: 42px;
+
+color: #000000;
+}.cc .gambar{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 506px;
+    top: 20px;
+    
+ 
+    border: 12px solid #19A1AA;
+    border-radius: 483px;
+}.cc .jdl{
+    position: absolute;
+width: 470px;
+height: 74px;
+left: 361px;
+top: 234px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+
+}.cc p{
+    position: absolute;
+width: 1028px;
+height: 148px;
+left: 82px;
+top: 308px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+
+}footer{
+    position: absolute;
+width: 1472px;
+height: 174px;
+left: 0px;
+top: 2230px;
+
+background: #000000;
+}footer a{
+    position: absolute;
+width: 804px;
+height: 66px;
+left: 334px;
+top: 79px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+}
