@@ -47,8 +47,13 @@ margin-bottom: 30px;
     background-color: black;
 }.pembatas1{
     width: 100%;
-    height: 100px;
+    height: 250px;
+    box-sizing: border-box;
     background-color: #DF711B;
+    font-family: fira sans;
+    font-size: 30px;
+    padding: 20px;
+    color: whitesmoke;
 }.a{
     background-color: #64C9CF;
     
@@ -76,4 +81,16 @@ margin-bottom: 30px;
 }.tabel tr:hover{
     cursor: pointer;
     padding: 5px;
+}
+
+.w3{
+    color:#fff!important;background-color:#e91e63!important; height:20px;
+}.w3-bg{
+    background-color: aliceblue;
+    width: 100%;
+}.bhs-pmg td{
+    padding: 18px 0;
+}.bhs-pmg img{
+    width: 60px;
+    height: auto;
 }
