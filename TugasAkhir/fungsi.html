@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Fungsi</title>
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+ <script src="js/bootstrap.bundle.min.js"></script> 
+
+ <link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <!-- This JavaScript file contains the ASCII art. -->
+ <script type="text/javascript" src="Tom-Thumb-symbols.js"></script> 
+ <script type="text/javascript" src="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore.js"></script>
+
+ <style>
+
+    .tulisan{
+        font-family: "comic sans ms";
+        font-size: 20px;
+    }
+
+    .judul{
+        color: #ECDBBA;
+    }
+
+ </style>
+
+
+</head>
+<body style="background-color: #2D4263;">
+
+<header class="container-fluid p-2" style="background-color: #FFFF00;">
+    <h1>BELAJAR</h1>
+    <h1>MATEMATIKA</h1>
+</header>
+
+<nav class="navbar navbar-expand bg-dark navbar-dark justify-content-center">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Beranda</a>
+        </li>
+       
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+<h1 class="container-sm pt-5 pl-5 mt-5 judul">APA ITU FUNGSI?</h1>
+
+<div class="container-sm p-5 mt-4" style="background-color: #FFC107;">
+    <div class="row">
+        <div class="col-md-6"><img class="img-fluid" src="proses v2.jpg" alt="gambar tidak muncul"> </div>
+        <div class="col-md-6">
+            <p class="container-fluid mb-5 mt-5 tulisan">Fungsi itu seperti mesin yang memproses masukan menjadi keluaran.</p>
+            <p class="container-fluid tulisan">Keluaran atau hasil dari fungsi memiliki hubungan dengan masukan.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-sm p-5 mt-5" style="background-color: #D96098;">
+    <div class="row">
+        <div class="col-md-4"><img class="img-fluid" src="fx.jpg" alt="gambar tidak muncul"> </div>
+        <div class="col-md-8">
+            <p class="container-fluid mb-5 mt-5 tulisan">"f(x) = ... " adalah cara notasi yang paling sering dipakai.</p>
+            <p class="container-fluid mb-5 tulisan">Masih ada cara yang lain, nanti kamu akan lihat!</p>
+            
+        </div>
+    </div>
+</div>
+
+
+<h1 class="container-sm pt-5 pl-5 mt-5 judul">INPUT, HUBUNGAN, DAN HASIL</h1>
+<div class="container-sm p-3 mt-4">
+
+            <p class="container-fluid p-2 mb-5 mt-3 tulisan text-white">Ada banyak cara untuk memandang fungsi, tapi yang jelas fungsi memiliki 3 bagian : </p>
+            <ul class="container-fluid pl-5 mb-5 tulisan text-white">
+                <li>Input / Masukan</li>
+                <li>Hubungan / Relasi</li>
+                <li>Output / Keluaran</li>
+            </ul>
+            
+
+</div>
+
+<div class="container-sm p-5 mt-5" style="background-color: #24A19C;">
+    <h3  style="color: #FAEEE7;">Contoh: “Dikali 2” adalah contoh fungsi yang paling sederhana.</h3>
+
+    <h3 class="mt-5" style="color: #2D4263">Disini ada 3 bagian: </h3>
+  
+    <table class="table table-bordered table-sm bg-light">
+        <thead>
+        <tr>
+            <th>Input</th>
+            <th>Relasi</th>
+            <th>Output</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>0</td>
+            <td>x2</td>
+            <td>0</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>x2</td>
+            <td>2</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>x2</td>
+            <td>4</td>
+        </tr>
+
+        <tr>
+            <td>6</td>
+            <td>x2</td>
+            <td>12</td>
+        </tr>
+
+        <tr>
+            <td>9</td>
+            <td>x2</td>
+            <td>18</td>
+        </tr>
+
+        <tr>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+        </tr>
+        </tbody>
+    </table>
+  
+
+    <p class="mt-5" style="color: #FAEEE7; font-size: 19px;">Sekarang berapakan outputnya jika inputnya adalah 20?</p>
+
+</div>
+
+
+<h1 class="container-sm pt-5 pl-5 mt-5 judul">NAMA FUNGSI</h1>
+
+<div class="container-sm p-4 mt-4 text-white">
+    <p class="tulisan p-3">Terkadang, suatu fungsi memiliki nama</p>
+    <p class="tulisan p-3">Nama yang sering dipakai adalah "f", tapi kita bisa beri nama lain seperti "g" ... atau bahkan "inifungsi" jika kita mau.</p>
+    <p class="tulisan p-3">Tapi disini kita pakai saja "f":</p>
+
+    
+        <img class="img-fluid" src="fungsi2.jpg" alt="gambar tidak muncul"> 
+
+    <p class="container-fluid p-2" style="color: #D96098; font-size: 19px; text-align: center;">dibaca “f x sama dengan x tambah 1”</p>
+
+</div>
+
+<h1 class="container-sm pt-5 pl-5 mt-5 judul">CONTOH</h1>
+
+<div class="container-sm p-5 mt-4" style="background-color: #D9534F;">
+    
+            <p class="container-fluid mb-5 text-white tulisan">misalkan ada fungsi seperti ini : </p>
+            <h1 class="container-fluid mb-5 text-white">f(x) = 5x</h1>
+
+            <p class="container-fluid mb-5 text-white tulisan">misalkan inputnya 4, maka semua x diganti menjadi 4 </p>
+            <h1 class="container-fluid mb-5 text-white">f(4) = 5(4)</h1>
+
+            <p class="container-fluid mb-5 text-white tulisan">lalu dioperasikan seperti biasa</p>
+            <h1 class="container-fluid mb-5 text-white">f(4) = 20</h1>
+
+            <p class="container-fluid mb-5 text-white tulisan">dengan begitu, hasil dari f(4) adalah 20.</p>
+        
+</div>
+
+
+<!-- The "display:none" is placed here, because the whole element is only for debugging. -->
+<div style="display: none; font-family: Consolas;">
+  <h3>90-degree turn</h3>
+  <textarea class="form-control w-25" rows="2" id="rotated" disabled></textarea>
+</div>
+
+
+<h1 class="container-sm pt-5 pl-5 mt-5 judul">AYO COBA SENDIRI!</h1>
+<div class="container-sm p-5 mt-5 ">    
+
+    <p class="tulisan text-white text-center">Kamu bisa mencoba membuat grafik fungsi sendiri disini</p>
+    <p class="tulisan text-white text-center">Petunjuk: jika kalian mau menggambar fungsi f(x) = 4x +5, maka kalian tuliskan 4*x+5 (harus pake tanda asterisk)</p>
+    
+
+    <div class="row p-4">
+      <div class="col-2 mr-5 text-right">
+        <label for="function" class="text-white  h3"><i>f(x)&nbsp;=&nbsp;</i></label>
+      </div>
+      <div class="d-flex col-7">
+        <input title="Generated function." class="form-control " rows="2" id="function" placeholder="coba 3*x-3"  onchange="update_graph()">
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- This textarea could be disabled, but it's no disadvantage to be able to edit it. -->
+     
+      <div id="jxgbox" class="jxgbox col-xl-6" style="background-color:#eee;height:350px;"></div>
+
+      <div class="col-xl-6 p-5">
+      <h3 class="text-white">Pengaturan</h3>
+      <div class="form-check form-check-inline">
+
+        <div class="row">
+        <input id="color" class="form-control form-control-color col-12 m-3" title="Choose your color" type="color" value="#FF6363" onchange="update_graph()">&nbsp;
+        <input type="number" class="form-control col-7 m-1" id="size" title="Choose the size of the line" value="4" min="1" max="50" onchange="update_graph()">
+        <span class="input-group-text col-4 ">px</span>&nbsp;
+     
+            <div class="mt-5">
+        <input class="form-check-input " title="Choose whether axis are visible" type="checkbox" value="" id="show_axis" onchange="update_graph()" checked>
+        <label class="form-check-label text-white " for="show_axis">Tampilkan&nbsp;garis</label>
+            </div>
+    
+    </div>
+      </div>
+      </div>
+
+    </div>
+
+</div>
+
+
+
+
+<footer class="container-fluid bg-dark text-white p-5 mt-5">
+    <p>by gld</p>
+</footer>
+
+
+<script>
+    // Default zoom.
+    var global_zoom = 10;
+  
+    /* --- Helper functions --- */
+  
+    function reset_line_size() {
+      document.getElementById("size").value = 4;
+      update_function();
+    }
+  
+    function formula_line(x1, y1, x2, y2) {
+      // Get slope.
+      var m = (y2 - y1) / (x2 - x1);
+      // Make the function easier if step function is selected. In step functions y1 is equal to y2.
+      var y = (y1 == y2) ? y1 : "(" + m + "*(x-" + x1 + ")+" + y1 + ")";
+      return "+(Math.pow((1+(x-"+x1+")/Math.sqrt(Math.pow((x-"+x1+"),2)+Math.pow(0,(Math.pow((x-"+x1+"),2))))*2),2)-1)/8*(1-(Math.pow((1+(x-"+x2+")/Math.sqrt(Math.pow((x-"+x2+"),2)+Math.pow(0,(Math.pow((x-"+x2+"),2))))*2),2)-1)/8)*" + y;
+    }
+  
+    // Returns a rounded number with only two decimal places.
+    function round2(x)
+    {
+      return (Math.round(x * 100) / 100);
+    }
+  
+    /* --- Three functions to turn text in a graph. --- */
+  
+    // Step 1: Turn a symbol into ASCII art, it will also rotate the ASCII art by 90 degrees clockwise.
+    function generate_ascii() {
+      var text = "";
+      var rotated_ascii = ""
+      for (var i = 0; i < text.length; i++) {
+        // Next ASCII position from input text.
+        index = text.charAt(i).charCodeAt(0);
+        // Now we turn the ASCII position to the index position of symbols.js.
+        if (index >= 48 && index <= 57)       index -= 47; // ASCII "0" - "9".
+        else if (index >= 65 && index <= 90)  index -= 54; // ASCII "A" - "Z".
+        else if (index >= 97 && index <= 122) index -= 60; // ASCII "a" - "z".
+        else                                  index  = 0;  // Just print ASCII " " if an unallowed symbol was typed in. Easy way to handle errors.
+        var symbol_ascii = symbols[index];
+        let super_hgt = symbol_ascii.length - symbol_ascii.replace(/\n/g, "").length;
+        var input = symbol_ascii.replace(/\n/g, "");
+        var super_wdt = input.length / super_hgt;
+        var new_symbol = "";
+        for (var x = 0; x < super_wdt; x++) {
+          for (var y = 0; y < super_hgt; y++) {
+            var position = input.length - super_wdt * (y + 1) + x;
+            new_symbol += input.substring(position, position + 1);
+          }
+          new_symbol += "\n";
+        }
+        // Add a margin between two "symbols".
+        rotated_ascii += new_symbol + "     \n";
+      }
+      document.getElementById("rotated").value = rotated_ascii;
+      update_function();
+    }
+  
+    // Step 2: Generate function.
+    function update_function() {
+      var input = document.getElementById("rotated").value;
+      let super_hgt = input.length - input.replace(/\n/g, "").length;
+      var input = input.replace(/\n/g, "");
+      var super_wdt = input.length / super_hgt;
+      var step_function =  false;
+      var px_wdt = 1;
+      [super_wdt, super_hgt] = [super_hgt, super_wdt];
+      var formel_no = "2*x + 1";
+      var x1 = 0, wdt, x2;
+  
+      // Draw whole image.
+      for (var i = 0; i < super_wdt; i++) {
+        for (var k = 0; k < px_wdt; k++) {
+          for (var j = 0; j < super_hgt; j++) {
+            var index = j+super_hgt*i;
+            var c = input.substring(index, index+1);
+            // A █ means that we want to draw a visible "pixel" now.
+            if (c == "█") {
+              if (step_function) {
+                x1 = round2(x1, 2);
+                if (px_wdt == 2) {
+                  wdt = round2(0.6/super_hgt/px_wdt);
+  
+                  x2 = round2(wdt + x1);
+                  formel_no += formula_line(x1, j+1.25, x2, j+1.25);
+                  x1 = x2;
+  
+                  x2 = round2(wdt + x1);
+                  formel_no += formula_line(x1, j+1.75, x2, j+1.75);
+                  x1 = x2;
+                }
+                else {
+                  wdt = round2(2*0.6/super_hgt/px_wdt);
+  
+                  x2 = round2(wdt + x1);
+                  formel_no += formula_line(x1, j+1.5, x2, j+1.5);
+                  x1 = x2;
+                }
+              }
+              else {
+                wdt = round2(1/super_hgt/px_wdt/3);
+  
+                x2 = round2(wdt + x1);
+                formel_no += formula_line(x1, j, x2, j+1);
+                x1 = x2;
+  
+                x2 = round2(wdt + x1);
+                formel_no += formula_line(x1, j+1, x2, j);
+                x1 = x2;
+  
+                x2 = round2(wdt + x1);
+                formel_no += formula_line(x1, j, x2, j+1);
+                x1 = x2;
+              }
+            }
+            // No visible pixel.
+            else {
+              if (!step_function) {
+                wdt = round2(1/super_hgt/px_wdt);
+  
+                x2 = round2(wdt + x1);
+                formel_no += formula_line(x1, j, x2, j+1);
+                x1 = x2;
+              }
+              else {
+                wdt = round2(1/super_hgt/px_wdt);
+  
+                x2 = round2(wdt + x1);
+                x1 = x2;
+              }
+            }
+          }
+          if (!step_function) {
+            // This wdt is the width of the nearly vertical line that goes from f(x)=4 to f(x)=-1.
+            wdt = 0.01;
+  
+            x2 += wdt;
+            formel_no += formula_line(x1, j, x2, 0);
+            x1 = x2;
+          }
+        }
+      }
+      // Replace the content of the textarea.
+      document.getElementById("function").value = formel_no;
+      // Update the zoom variable.
+      global_zoom = super_wdt;
+      update_graph();
+    }
+  
+    // Step 3: Update JSXGraph.
+    function update_graph() {
+  
+      txt = document.getElementById("function").value.toLowerCase(); // dibikin lowercase biar enak;
+      
+      // pake reGex aja biar ga capek mikir
+      txt = txt.replace("cos", "Math.cos");
+      txt = txt.replace("sin", "Math.sin");
+      txt = txt.replace("tan", "Math.tan");
+      
+  
+  
+      graph_zoom = global_zoom + 5; // +6 gives us more room to make sure there is some margin on the border.
+      board = JXG.JSXGraph.initBoard('jxgbox', {boundingbox: [-graph_zoom, graph_zoom, graph_zoom, -graph_zoom], axis: document.getElementById("show_axis").checked, showCopyright: false });
+      //eval("function f(x){ return "+document.getElementById("function").value+";}");
+      eval("function f(x){ return "+txt+";}");
+      graph = board.create('functiongraph', [function(x){ return f(x); }], {strokeColor:document.getElementById("color").value,strokeWidth:document.getElementById("size").value});
+    }
+  
+    // Even with no input, we want to draw the default function f(x) = -1.
+    // We need to call the generate_ascii because otherwise the zoom would be resetted when the user presses F5 to refresh the page.
+    generate_ascii();
+    </script>
+
+
+</body>
+
+</html>
