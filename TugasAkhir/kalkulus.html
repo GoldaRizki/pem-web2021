@@ -25,7 +25,12 @@
         color: #191919;
     }.tulisan2{
         font-family: sans-serif;
-        font-size: 20px;
+        font-size: 19px;
+    }.rumus{
+        font-size: 23px;
+        font-family: sans-serif;
+        color: #3B185F;
+        text-align: center;
     }
 
 
@@ -67,21 +72,21 @@
             </div>
 
             <div class="row p-1 mt-5">
-                <p class="tulisan col-md-1 nama">Alex&nbsp;:</p><p class="tulisan col-md-11 dialog">"Hey Sam! How fast are we going now?"</p>
+                <p class="tulisan col-md-1 nama">Alex&nbsp;:</p><p class="tulisan col-md-11 dialog">"Hei Sam! Berapa kecepatan kita sekarang?"</p>
             </div>
 
             <div class="row p-1 mt-5">
-                <p class="tulisan col-md-1 nama">Sam&nbsp;:</p><p class="tulisan col-md-11 dialog">"Wait a minute ..." <br> "Well in the last minute we went 1.2 km, so we are going:"</p>
+                <p class="tulisan col-md-1 nama">Sam&nbsp;:</p><p class="tulisan col-md-11 dialog">"Tunggu bentar ..." <br> "Dalam 1 menit terakhir kita berjalan sejauh 1.2 km, jadi kecepatan kita:"</p>
 
-                    <p class="tulisan col-12 dialog text-center">1.2 km per minute x 60 minutes in an hour = <b>72 km/h</b></p>
+                    <p class="tulisan col-12 dialog text-center">1.2 km per menit x 60 menit dalam satu jam = <b>72 km/jam</b></p>
             </div>
 
             <div class="row p-1 mt-5">
-                <p class="tulisan col-md-1 nama">Alex&nbsp;:</p><p class="tulisan col-md-11 dialog">"No, Sam! Not our average for the last minute, or even the last second, I want to know our speed RIGHT NOW."</p>
+                <p class="tulisan col-md-1 nama">Alex&nbsp;:</p><p class="tulisan col-md-11 dialog">"Enggak, Sam! Bukan kecepatan rata2 dalam semenit terakhir, atau bahkan sedetik terakhir, aku mau tau kecepatan kita TEPAT SEKARANG INI."</p>
             </div>
 
             <div class="row p-1 mt-5">
-                <p class="tulisan col-md-1 nama">Sam&nbsp;:</p><p class="tulisan col-md-11 dialog">"OK, let us measure it up here ... at this road sign... NOW!"
+                <p class="tulisan col-md-1 nama">Sam&nbsp;:</p><p class="tulisan col-md-11 dialog">"OK, kita hitung disini ... pas di plang depan... MULAI!"
 
                 </p>
             </div>
@@ -92,15 +97,15 @@
 
             <div class="row p-1 mt-5 justify-content-center">
                 
-                <p class="tulisan col-md-1 nama"></p><p class="tulisan col-md-11 dialog">&nbsp;&nbsp;&nbsp;&nbsp;"OK, we were AT the sign for zero seconds, and the distance was ... zero meters!"
+                <p class="tulisan col-md-1 nama"></p><p class="tulisan col-md-11 dialog">&nbsp;&nbsp;&nbsp;&nbsp;"OK, ketika di samping tiang kita berada di detik ke nol, dan jaraknya adalah ... nol meter!"
                 </p>
             </div>
             
-            <p class="dialog container-fluid mt-3 text-center">The speed is 0m / 0s = 0/0 = I Don't Know!</p>
+            <p class="dialog container-fluid mt-3 text-center">Jadi kecepatannya adalah 0m / 0s = 0/0 = Gatau :(</p>
 
             <div class="row p-1 mt-5 justify-content-center">
                 
-                <p class="tulisan col-md-1 nama"></p><p class="tulisan col-md-11 dialog">&nbsp;&nbsp;&nbsp;&nbsp;"I can't calculate it, Alex! I need to know some distance over some time, and you are saying the time should be zero? Can't be done."
+                <p class="tulisan col-md-1 nama"></p><p class="tulisan col-md-11 dialog">&nbsp;&nbsp;&nbsp;&nbsp;"Aku tidak bisa menghitungnya, Alex! Aku harus butuh selisih jarak dan selisih waktu, dan tai kamu bilang waktunya nol? Tidak bisa...."
                 </p>
             </div>
 
@@ -160,16 +165,83 @@
 
             <p class="p-5 text-light tulisan2">"BUT", says Alex, "again that is an average speed, since you started the jump, ... I want to know the speed at exactly 1 second, so I can set up the camera properly."</p>
 
-            <div class="container-sm col-sm-5"><img class="img-fluid" src="gbr/rms3.png" alt="gambar tidak muncul"></div>
+
+            <div class="row p-5 justify-content-center">
+                
+                <div class="col-md-4 m-1"><img class="img-fluid bg-light" src="gbr/atraksi2.svg" alt="gambar tidak muncul"></div>
+                <div class="col-md-6">
+                  
+                        <p class="p-5 text-light tulisan2">Well ... at exactly 1 second the speed is:</p>
+                       <div class="container-sm"><img class="img-fluid" src="gbr/rms3.png" alt="gambar tidak muncul"></div>
+                    
+                </div>
+
+            </div>
+
+            <p class="p-5 text-light tulisan2">So again Sam has a problem.</p>
+
+            <div class="row rounded p-4 mt-5" style="background-color: #3FA796;">
+                <p class="tulisan" style="color: #2b294e;">Think about it ... how do we figure out a speed at an exact instant in time?</p>
+                <p class="tulisan" style="color: #2b294e;">What is the distance? What is the time difference?</p>
+                <p class="tulisan" style="color: #2b294e;">They are both zero, giving us nothing to calculate with!</p>
+            </div>
+
 
         </div>
 
-        
+        <div class="row p-3 m-2">
+            <p class="tulisan2" style="color: #cccccc;">But Sam has an idea ... invent a time so short it won't matter.</p>
+            <p class="tulisan2" style="color: #cccccc;">Sam won't even give it a value, and will just call it "Δt" (called "delta t").</p>
+            <p class="tulisan2" style="color: #cccccc;">So Sam works out the difference in distance between t and t+Δt</p>
+        </div>
 
+
+        <div class="container-fluid p-5 mt-1" style="background-color: #D96098;">
+        
+            <p class="tulisan2" style="color: #133238;">At 1 second Sam has fallen</p>
+            <p class="p-5 rumus">5t<sup>2</sup>&nbsp;=&nbsp;5&nbsp;&times;&nbsp;(1)<sup>2</sup>&nbsp;=&nbsp;5&nbsp;m</p>
+            <p class="tulisan2" style="color: #133238;">At (1+Δt) seconds Sam has fallen</p>
+            <p class="p-5 rumus">5t<sup>2</sup>&nbsp;=&nbsp;5&nbsp;&times;&nbsp;(1)<sup>2</sup>&nbsp;=&nbsp;5&nbsp;m</p>
+            <p class="tulisan2" style="color: #133238;">We can expand (1+Δt)<sup>2</sup>:</p>
+            <p class="pt-5 rumus">(1+Δt)<sup>2</sup>&nbsp;=&nbsp;(1+Δt)(1+Δt)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;1&nbsp;+&nbsp;2Δt&nbsp;+&nbsp;(Δt)<sup>2</sup></p>
+            <p class="tulisan2" style="color: #133238;">So at (1+Δt) seconds Sam has fallen</p>
+            <p class="pt-5 rumus">d&nbsp;=&nbsp;5&nbsp;×&nbsp;(1+2Δt+(Δt)<sup>2</sup>)&nbsp;m</p>
+            <p class="pt-5 rumus">d&nbsp;=&nbsp;5&nbsp;×&nbsp;(1+2Δt+(Δt)<sup>2</sup>)&nbsp;m</p>
+            <div class="row p-1 mt-5 justify-content-center">
+                <div class="col-3"><img class="img-fluid bg-light" src="gbr/atraksi3.svg" alt="gambar tidak muncul"></div>
+                
+            </div>
+
+            <p class="tulisan2" style="color: #133238;">In Summary:</p>
+            <p class="pt-5 rumus">At&nbsp;1&nbsp;detik:&nbsp;&nbsp;d&nbsp;=&nbsp;5&nbsp;m</p>
+            <p class="pt-5 rumus">At&nbsp;(1+Δt)&nbsp;detik:&nbsp;&nbsp;d&nbsp;=&nbsp;5&nbsp;+&nbsp;10Δt&nbsp;+&nbsp;5(Δt)<sup>2</sup>&nbsp;m</p>
+            <p class="tulisan2" style="color: #133238;">So between 1 second and (1+Δt) seconds we get: </p>
+            <p class="pt-5 rumus">Change&nbsp;in&nbsp;d&nbsp;=&nbsp;5&nbsp;+&nbsp;10Δt&nbsp;+&nbsp;5(Δt)<sup>2</sup>&nbsp;−&nbsp;5&nbsp;m</p>
+            <p class="tulisan2 p-5" style="color: #133238;">Change in distance over time:</p>
+        
+            <div class="row p-1 mt-5 justify-content-center">
+                <div class="col-3"><img class="img-fluid bg-light" src="gbr/rms4.PNG" alt="gambar tidak muncul"></div>
+            </div>
+
+            <p class="tulisan2 p-5" style="color: #133238;">So the speed is 10 + 5Δt m/s, and Sam thinks about that Δt value ... he wants Δt to be so small it won't matter ... so he imagines it shrinking towards zero and he gets:</p>
+            <p class="pt-5 rumus">Kecepatan&nbsp;=&nbsp;10&nbsp;m/s</p>
+
+            <p class="p-5 text-dark tulisan2">Wow! Sam got an answer!</p>
+
+            <div class="row p-3 m-2">
+                <p class="tulisan2" style="color: #5c0404; font-weight: bold;">Sam: "I will be falling at exactly 10 m/s"</p>
+                <p class="tulisan2" style="color: #5c0404; font-weight: bold;">Alex: "I thought you said you couldn't calculate it?"</p>
+                <p class="tulisan2" style="color: #5c0404; font-weight: bold;">Sam: "That was before I used Calculus!"</p>
+            </div>
+
+            <p class="p-5 text-dark tulisan2" style="font-weight: bolder; font-size: 23px; text-align: center;">YEP! Tadi barusan adalah kalkulus</p>
+
+
+        </div>
 
 <!--#3FA796;
             <a href="integral.html" style="text-decoration: none;" class="text-white">
-                <div class="container-sm p-5 mt-5" style="background-color: #D96098;">
+                <div class="container-sm p-5 mt-5" style="background-color: #D96098;">  
                     <div class="row align-items-center">
                         <div class="col-md-12 align-middle">  
                             <h1>Integral</h1>
